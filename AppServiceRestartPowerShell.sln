@@ -3,14 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{014BD3A0-FE2F-4A4E-9CD6-0BB6580A7EF7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Restart", "Application Restart", "{4A45D5F2-4802-425E-83C4-F1F30A56049E}"
-	ProjectSection(SolutionItems) = preProject
-		Run.ps1 = Run.ps1
-		silentauthentication.ps1 = silentauthentication.ps1
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationRestart", "ApplicationRestart\ApplicationRestart.csproj", "{1D879BC2-6133-4855-A23B-3250AA150269}"
 EndProject
 Global
@@ -26,8 +18,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{4A45D5F2-4802-425E-83C4-F1F30A56049E} = {014BD3A0-FE2F-4A4E-9CD6-0BB6580A7EF7}
 	EndGlobalSection
 EndGlobal
